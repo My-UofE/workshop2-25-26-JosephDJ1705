@@ -7,7 +7,7 @@ public class HelloWorldApp {
         System.out.print("Hello World! My name is ");
         System.out.print(args[0]);
         System.out.print(".");
-        System.out.print("I am ");
+        System.out.print(" I am ");
         System.out.print(args[1]);
         System.out.print(" years old");
         System.out.println(".");
