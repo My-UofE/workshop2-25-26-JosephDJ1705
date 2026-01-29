@@ -8,4 +8,5 @@ public class HelloWorldApp {
     }
 }
 
->> javac HelloWorldApp.java RETURN
+javac HelloWorldApp.java RETURN
+java HelloWorldApp RETURN
