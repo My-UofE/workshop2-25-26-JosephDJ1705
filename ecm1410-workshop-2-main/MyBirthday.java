@@ -8,5 +8,5 @@ public class MyBirthday {
         // value below is a constant
         final int DAYS_A_WEEK = 7; 
 
-        int daystobirthday = myBirthdayDate - currentDate
-        System.out.println("Days to birthday from current date: " + daystobirthday)
+        int daystobirthday = myBirthdayDate - currentDate;
+        System.out.println("Days to birthday from current date: " + daystobirthday);
