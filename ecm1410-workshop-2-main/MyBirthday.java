@@ -10,3 +10,5 @@ public class MyBirthday {
 
         int daystobirthday = myBirthdayDate - currentDate;
         System.out.println("Days to birthday from current date: " + daystobirthday);
+    }
+}
