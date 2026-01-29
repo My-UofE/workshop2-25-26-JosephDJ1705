@@ -10,5 +10,9 @@ public class MyBirthday {
 
         int daystobirthday = myBirthdayDate - currentDate;
         System.out.println("Days to birthday from current date: " + daystobirthday);
+
+        // second task
+        int dayofthebirthday = (currentDay + daystobirthday) % DAYS_A_WEEK;
+        System.out.println("the day of the week on which the birthday falls is: " + dayofthebirthday);
     }
 }
