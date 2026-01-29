@@ -4,7 +4,7 @@
 
 public class HelloWorldApp {
     public static void main(Strings[] args) {
-        System.out.printIn("Hello World!");
+        System.out.println("Hello World!");
     }
 }
 
