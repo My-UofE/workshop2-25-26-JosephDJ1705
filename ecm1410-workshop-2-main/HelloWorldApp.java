@@ -7,3 +7,5 @@ public class HelloWorldApp {
         System.out.printIn("Hello World!");
     }
 }
+
+>> javac HelloWorldApp.java RETURN
