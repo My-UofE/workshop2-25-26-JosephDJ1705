@@ -14,7 +14,7 @@ public class VariablesTest {
         int nHours = 022;
         System.out.println("nHours: " + nHours);
         double ratio = 7/5;
-        System.out.println("ratio: " + ratio)
+        System.out.println("ratio: " + ratio);
     
     }
 }
