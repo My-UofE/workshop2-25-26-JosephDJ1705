@@ -4,7 +4,15 @@ public class RectangleComputation {
         double width = Double.parseDouble(args[1]);
         double area = height  * width;
         double perimeter = 2 * height + 2 * width;
-        System.out.println("Shape: Rectangle");
+        double tolerance = 0.001;
+        double ratio = height / width;
+        boolean isSquare = (Math.abs(ratio - 1) < tolerance);
+        if (isSquare) {
+            System.out.println("Shape: Square");
+        } else {
+            System.out.println("Shape: Rectangle");
+        }
+        
         System.out.println("Area: " + area);
         System.out.println("Perimeter: " + perimeter);
 
